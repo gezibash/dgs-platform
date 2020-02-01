@@ -1,0 +1,5 @@
+.ds-barchart {
+  height: 500px;
+  background: rgb(252,252,252);
+  background: linear-gradient(59deg, rgba(252,252,252,1) 0%, rgba(255,254,254,1) 100%);
+}

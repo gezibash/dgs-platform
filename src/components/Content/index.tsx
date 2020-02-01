@@ -2,10 +2,17 @@ import React from 'react'
 
 import "./style.css";
 
+import Sidebar from "../Sidebar";
+import BarChart from "../BarChart";
+
 const Content: React.FC = () => {
   return (
-    <div className="container mx-auto">
-      <div className="block h-px w-full bg-gray-400">
+    <div className="flex flex-row">
+      <div className="hidden lg:flex w-1/5">
+        <Sidebar />
+      </div>
+      <div className="flex flex-grow p-10">
+        <BarChart />
       </div>
     </div>
   )
