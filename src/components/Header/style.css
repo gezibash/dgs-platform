@@ -1,0 +1,8 @@
+.ds-header {
+  background: rgb(45,2,68);
+  background: linear-gradient(90deg, rgba(45,2,68,1) 0%, rgba(54,24,117,1) 100%);
+}
+
+.ds-nav h4 {
+  font-size: 0.75em;
+}
