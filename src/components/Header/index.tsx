@@ -29,7 +29,7 @@ const Header : React.FC = () => {
       </div>
       <nav className="hidden sm:flex flex-grow items-center text-white ds-nav">
         {links.map(link => (
-        <button className={(link.isActive ? "border border-white-1 " : "") + 
+        <button key={link.linkName} className={(link.isActive ? "border border-white-1 " : "") + 
           `flex items-center p-1 px-2 mr-2 hover:bg-purple-900 rounded focus:outline-none focus:border-white ` 
           + link.css
           }>

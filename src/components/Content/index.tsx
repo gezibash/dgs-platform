@@ -3,7 +3,7 @@ import React from 'react'
 import "./style.css";
 
 import Sidebar from "../Sidebar";
-import BarChart from "../BarChart";
+import ChartElement from "../Charts/ChartElement";
 
 const Content: React.FC = () => {
   return (
@@ -11,8 +11,9 @@ const Content: React.FC = () => {
       <div className="hidden lg:flex w-1/5">
         <Sidebar />
       </div>
-      <div className="flex flex-grow p-10">
-        <BarChart />
+      <div className="flex flex-col flex-grow p-10 text-left ds-notebook-content">
+        <h3 className="my-3">Header 1</h3>
+        <ChartElement />
       </div>
     </div>
   )
