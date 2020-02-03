@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Header from "./components/Header";
-import Content from "./components/Content";
+import Header from './components/Header/Header';
+import Content from './components/Content/Content';
 
-const App: React.FC = () => {
-  return <div className="App">
+const App: React.FC = () => (
+  <div className="App">
     <Header />
     <Content />
-  </div>;
-};
+  </div>
+);
 
 export default App;
