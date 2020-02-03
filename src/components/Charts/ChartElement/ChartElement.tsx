@@ -38,7 +38,7 @@ const ChartElement: React.FC = () => {
       <div className="flex w-full">
         <BarChart data={data.data} names={data.names} />
       </div>
-      <SettingsModal hidden={hiddenSettings} />
+      <SettingsModal setHidden={setHiddenSettings} hidden={hiddenSettings} />
     </div>
   );
 };
