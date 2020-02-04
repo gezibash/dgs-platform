@@ -1,8 +1,10 @@
 import * as React from 'react';
-import { ResponsiveBar } from '@nivo/bar';
+import { ResponsiveBarCanvas, ResponsiveBar } from '@nivo/bar';
 
 import './BarChart.css';
 import Toggle from '../../Shared/Toggle/Toggle';
+
+import BarchartFilters from './Filters/Filters';
 
 interface BarChartProps {
   data: any[];
@@ -35,11 +37,11 @@ const BarChart: React.FC<BarChartProps> = ({
   return (
     <>
       <div className={`block animated w-full px-5 ${filterMode ? 'fadeInDown' : 'hidden'} ds-settings pr-5`}>
-        <h2>Filters</h2>
+        <BarchartFilters />
       </div>
       <div className="flex flex-row">
-        <div className={`block ${editMode ? 'w-3/4' : 'w-full'} ds-barchart`}>
-          <ResponsiveBar
+        <div className={`block animated ${editMode ? 'w-3/4' : 'w-full'} ds-barchart`}>
+          <ResponsiveBarCanvas
             data={data}
             groupMode={groupedMode as GroupedMode}
             keys={names}
@@ -67,7 +69,7 @@ const BarChart: React.FC<BarChartProps> = ({
             axisLeft={isVertical ? {} : null}
           />
         </div>
-        <div className={`flex flex-col animated ${editMode ? 'fadeInRight w-1/4' : 'hidden'} ds-settings pr-5`}>
+        <div className={`flex flex-col animated fadeInRight ${editMode ? 'w-1/4' : 'hidden'} ds-settings pr-5`}>
           <h2 className="">Chart Settings</h2>
           <hr className="my-2 mb-5" />
           <Toggle text="Stacked" clickFunction={() => onClickGrouped()} />
