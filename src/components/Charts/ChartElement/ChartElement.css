@@ -1,0 +1,113 @@
+@keyframes gradienty {
+  0%  {background: linear-gradient(0.0deg, #ff3e3e, purple);}
+  1%  {background: linear-gradient(3.56deg, #ff3e3e, purple);}
+  2%  {background: linear-gradient(7.2deg, #ff3e3e, purple);}
+  3%  {background: linear-gradient(10.7deg, #ff3e3e, purple);}
+  4%  {background: linear-gradient(14.4deg, #ff3e3e, purple);}
+  5%  {background: linear-gradient(18.0deg, #ff3e3e, purple);}
+  6%  {background: linear-gradient(21.5998deg, #ff3e3e, purple);}
+  7%  {background: linear-gradient(25.2deg, #ff3e3e, purple);}
+  8%  {background: linear-gradient(28.8deg, #ff3e3e, purple);}
+  9%  {background: linear-gradient(32.4deg, #ff3e3e, purple);}
+  10%  {background: linear-gradient(35.0deg, #ff3e3e, purple);}
+  11%  {background: linear-gradient(39.5994deg, #ff3e3e, purple);}
+  12%  {background: linear-gradient(43.1996deg, #ff3e3e, purple);}
+  13%  {background: linear-gradient(46.8deg, #ff3e3e, purple);}
+  14%  {background: linear-gradient(50.4deg, #ff3e3e, purple);}
+  15%  {background: linear-gradient(54.0deg, #ff3e3e, purple);}
+  16%  {background: linear-gradient(57.5994deg, #ff3e3e, purple);}
+  17%  {background: linear-gradient(61.1996deg, #ff3e3e, purple);}
+  18%  {background: linear-gradient(64.8deg, #ff3e3e, purple);}
+  19%  {background: linear-gradient(68.399deg, #ff3e3e, purple);}
+  20%  {background: linear-gradient(72.0deg, #ff3e3e, purple);}
+  21%  {background: linear-gradient(75.6deg, #ff3e3e, purple);}
+  22%  {background: linear-gradient(79.199deg, #ff3e3e, purple);}
+  23%  {background: linear-gradient(82.8deg, #ff3e3e, purple);}
+  24%  {background: linear-gradient(86.398deg, #ff3e3e, purple);}
+  25%  {background: linear-gradient(90.0deg, #ff3e3e, purple);}
+  26%  {background: linear-gradient(93.6deg, #ff3e3e, purple);}
+  27%  {background: linear-gradient(97.199deg, #ff3e3e, purple);}
+  28%  {background: linear-gradient(100.798deg, #ff3e3e, purple);}
+  29%  {background: linear-gradient(104.399deg, #ff3e3e, purple);}
+  30%  {background: linear-gradient(108.0deg, #ff3e3e, purple);}
+  31%  {background: linear-gradient(111.6deg, #ff3e3e, purple);}
+  32%  {background: linear-gradient(115.2deg, #ff3e3e, purple);}
+  33%  {background: linear-gradient(118.798deg, #ff3e3e, purple);}
+  34%  {background: linear-gradient(122.399deg, #ff3e3e, purple);}
+  35%  {background: linear-gradient(126.0deg, #ff3e3e, purple);}
+  36%  {background: linear-gradient(129.6deg, #ff3e3e, purple);}
+  37%  {background: linear-gradient(133.2deg, #ff3e3e, purple);}
+  38%  {background: linear-gradient(136.798deg, #ff3e3e, purple);}
+  39%  {background: linear-gradient(140.4deg, #ff3e3e, purple);}
+  40%  {background: linear-gradient(144.0deg, #ff3e3e, purple);}
+  41%  {background: linear-gradient(147.6deg, #ff3e3e, purple);}
+  42%  {background: linear-gradient(151.2deg, #ff3e3e, purple);}
+  43%  {background: linear-gradient(154.8deg, #ff3e3e, purple);}
+  44%  {background: linear-gradient(158.398deg, #ff3e3e, purple);}
+  45%  {background: linear-gradient(162.0deg, #ff3e3e, purple);}
+  46%  {background: linear-gradient(165.6deg, #ff3e3e, purple);}
+  47%  {background: linear-gradient(169.2deg, #ff3e3e, purple);}
+  48%  {background: linear-gradient(172.798deg, #ff3e3e, purple);}
+  49%  {background: linear-gradient(176.398deg, #ff3e3e, purple);}
+  50%  {background: linear-gradient(180.0deg, #ff3e3e, purple);}
+  51%  {background: linear-gradient(183.6deg, #ff3e3e, purple);}
+  52%  {background: linear-gradient(187.2deg, #ff3e3e, purple);}
+  53%  {background: linear-gradient(190.8deg, #ff3e3e, purple);}
+  54%  {background: linear-gradient(194.398deg, #ff3e3e, purple);}
+  55%  {background: linear-gradient(198.0deg, #ff3e3e, purple);}
+  56%  {background: linear-gradient(201.597deg, #ff3e3e, purple);}
+  57%  {background: linear-gradient(205.2deg, #ff3e3e, purple);}
+  58%  {background: linear-gradient(208.798deg, #ff3e3e, purple);}
+  59%  {background: linear-gradient(212.398deg, #ff3e3e, purple);}
+  60%  {background: linear-gradient(216.0deg, #ff3e3e, purple);}
+  61%  {background: linear-gradient(219.597deg, #ff3e3e, purple);}
+  62%  {background: linear-gradient(223.2deg, #ff3e3e, purple);}
+  63%  {background: linear-gradient(226.8deg, #ff3e3e, purple);}
+  64%  {background: linear-gradient(230.398deg, #ff3e3e, purple);}
+  65%  {background: linear-gradient(233.997deg, #ff3e3e, purple);}
+  66%  {background: linear-gradient(237.597deg, #ff3e3e, purple);}
+  67%  {background: linear-gradient(241.2deg, #ff3e3e, purple);}
+  68%  {background: linear-gradient(244.798deg, #ff3e3e, purple);}
+  69%  {background: linear-gradient(248.4deg, #ff3e3e, purple);}
+  70%  {background: linear-gradient(251.997deg, #ff3e3e, purple);}
+  71%  {background: linear-gradient(255.597deg, #ff3e3e, purple);}
+  72%  {background: linear-gradient(259.2deg, #ff3e3e, purple);}
+  73%  {background: linear-gradient(262.795deg, #ff3e3e, purple);}
+  74%  {background: linear-gradient(266.4deg, #ff3e3e, purple);}
+  75%  {background: linear-gradient(270.0deg, #ff3e3e, purple);}
+  76%  {background: linear-gradient(273.6deg, #ff3e3e, purple);}
+  77%  {background: linear-gradient(277.193deg, #ff3e3e, purple);}
+  78%  {background: linear-gradient(280.8deg, #ff3e3e, purple);}
+  79%  {background: linear-gradient(284.4deg, #ff3e3e, purple);}
+  80%  {background: linear-gradient(287.994deg, #ff3e3e, purple);}
+  81%  {background: linear-gradient(291.6deg, #ff3e3e, purple);}
+  82%  {background: linear-gradient(295.2deg, #ff3e3e, purple);}
+  83%  {background: linear-gradient(298.8deg, #ff3e3e, purple);}
+  84%  {background: linear-gradient(302.4deg, #ff3e3e, purple);}
+  85%  {background: linear-gradient(305.994deg, #ff3e3e, purple);}
+  86%  {background: linear-gradient(309.6deg, #ff3e3e, purple);}
+  87%  {background: linear-gradient(313.2deg, #ff3e3e, purple);}
+  88%  {background: linear-gradient(316.795deg, #ff3e3e, purple);}
+  89%  {background: linear-gradient(320.4deg, #ff3e3e, purple);}
+  90%  {background: linear-gradient(324.0deg, #ff3e3e, purple);}
+  91%  {background: linear-gradient(327.597deg, #ff3e3e, purple);}
+  92%  {background: linear-gradient(331.2deg, #ff3e3e, purple);}
+  93%  {background: linear-gradient(334.795deg, #ff3e3e, purple);}
+  94%  {background: linear-gradient(338.39deg, #ff3e3e, purple);}
+  95%  {background: linear-gradient(342.0deg, #ff3e3e, purple);}
+  96%  {background: linear-gradient(345.597deg, #ff3e3e, purple);}
+  97%  {background: linear-gradient(349.193deg, #ff3e3e, purple);}
+  98%  {background: linear-gradient(352.8deg, #ff3e3e, purple);}
+  99%  {background: linear-gradient(356.4deg, #ff3e3e, purple);}
+  100%  {background: linear-gradient(360.0deg, #ff3e3e, purple);}
+}
+
+.being-edited {
+  position: relative;
+  background: linear-gradient(to right, #ff3e3e, purple);
+  animation-name: gradienty;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transition: opacity ease-in 0.5s;
+}

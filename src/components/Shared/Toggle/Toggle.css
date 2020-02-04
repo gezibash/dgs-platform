@@ -1,0 +1,10 @@
+.toggle__dot {
+  top: -.25rem;
+  left: -.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input:checked ~ .toggle__dot {
+  transform: translateX(100%);
+  background: linear-gradient(90deg, rgb(176, 53, 241) 0%, rgb(211, 0, 200) 100%);
+}
