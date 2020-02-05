@@ -1,22 +1,57 @@
 import React from 'react';
 
 import './Filters.css';
+import uuid from 'uuid';
 import Filter from './Filter';
 
 
+interface IFilter {
+  filterId: string;
+  filterType: 'filter-by' | 'group-by' | 'none';
+  filterVariable?: string;
+  filterValue?: string;
+}
+
 const BarchartFilters: React.FC = () => {
-  let keystate = 0;
-  const [filters, setFilters] = React.useState([1, 2, 3]);
+  const initialFilter: IFilter = {
+    filterId: uuid.v4(),
+    filterType: 'none',
+  };
+
+  const [filters, setFilters] = React.useState([initialFilter]);
+
+  const createNewFilter = () => {
+    setFilters([...filters, initialFilter]);
+  };
+
+  const removeFilter = (idx: number) => {
+    console.log(`Removing filter ${idx}`);
+    console.table(filters);
+    setFilters(filters.filter((val, index) => index !== idx));
+  };
+
   return (
     <>
       <h2>Filters</h2>
       <hr className="my-2 mb-3" />
-      <div className={`flex flex-row ${filters.length > 4 ? 'overflow-x-scroll' : ''} py-3`}>
+      <div className="flex flex-row flex-wrap py-3">
         {
-          filters.map((filter, index) => (
-            <Filter key={`barfil-${keystate++}`} parentKey={index} closeFunction={(idx: number) => { setFilters(filters.filter((f, i) => i !== idx)); }} />
+          filters.map((filter) => (
+            <Filter
+              filterType={filter.filterType}
+              filterVariable={filter.filterVariable}
+              filterValue={filter.filterValue}
+              key={filter.filterId}
+              parentKey={filter.filterId}
+              closeFunction={(idx: number) => removeFilter(idx)}
+            />
           ))
         }
+        <div className="flex relative flex-row items-center border border-gray-200 mr-2 p-5 my-5">
+          <button type="button" className="flex w-1/2 items-center text-purple-200" onClick={() => createNewFilter()}>
+            <i className="material-icons">add</i>
+          </button>
+        </div>
       </div>
     </>
   );

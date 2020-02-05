@@ -36,7 +36,7 @@ const BarChart: React.FC<BarChartProps> = ({
 
   return (
     <>
-      <div className={`block animated w-full px-5 ${filterMode ? 'fadeInDown' : 'hidden'} ds-settings pr-5`}>
+      <div className={`block animated w-full px-5 ${filterMode ? 'fadeIn faster' : 'hidden'} ds-settings pr-5`}>
         <BarchartFilters />
       </div>
       <div className="flex flex-row">
