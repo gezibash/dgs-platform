@@ -30,7 +30,8 @@
             "tsx": "never",
             "js": "never",
             "ts": "never"
-        }]
+        }],
+        "no-plusplus": "off"
     },
     "settings": {
         "import/resolver": {

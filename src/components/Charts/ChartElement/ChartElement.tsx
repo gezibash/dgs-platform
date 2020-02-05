@@ -12,8 +12,8 @@ interface IChartData {
 const ChartElement: React.FC = () => {
   const initialData: IChartData = { names: [], data: [] };
   const [data, setData] = React.useState(initialData);
-  const [editMode, setEditMode] = React.useState(true);
-  const [filterMode, setFilterMode] = React.useState(false);
+  const [editMode, setEditMode] = React.useState(false);
+  const [filterMode, setFilterMode] = React.useState(true);
 
   const fetchData = () => {
     fetch('http://localhost:3050/bar')

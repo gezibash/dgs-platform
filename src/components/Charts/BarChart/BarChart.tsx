@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ResponsiveBarCanvas, ResponsiveBar } from '@nivo/bar';
+import { ResponsiveBarCanvas } from '@nivo/bar';
 
 import './BarChart.css';
 import Toggle from '../../Shared/Toggle/Toggle';
