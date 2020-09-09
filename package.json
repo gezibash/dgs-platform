@@ -5,17 +5,18 @@
   "dependencies": {
     "@nivo/bar": "^0.61.1",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "@types/uuid": "^3.4.7",
-    "eslint-config-airbnb": "^18.0.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1",
+    "@types/node": "^12.12.56",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/uuid": "^3.4.9",
+    "eslint-config-airbnb": "^18.2.0",
+    "netlify": "^4.3.13",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
     "typescript": "~3.7.2",
     "uuid": "^3.4.0"
   },
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify-login": "netlify login"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,22 +43,22 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.18.0",
-    "@typescript-eslint/parser": "^2.18.0",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
     "add": "^2.0.6",
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^9.8.6",
     "eslint": "^6.6.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-native": "^3.8.1",
-    "postcss-cli": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-native": "^3.9.1",
+    "postcss-cli": "^7.1.2",
     "prettier": "^1.19.1",
-    "tailwindcss": "^1.1.4",
-    "yarn": "^1.21.1"
+    "tailwindcss": "^1.8.6",
+    "yarn": "^1.22.5"
   }
 }

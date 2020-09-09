@@ -14,7 +14,7 @@ interface FilterProps {
 const BarchartFilters: React.FC<FilterProps> = ({
   filterType, filterValue, filterVariable, parentKey, closeFunction,
 }: FilterProps) => (
-  <div className="animated zoomIn faster flex relative flex-row items-center border border-gray-200 mr-2 p-5 my-5" id={parentKey}>
+  <div className="relative flex flex-row items-center p-5 my-5 mr-2 border border-gray-200 animated zoomIn faster" id={parentKey}>
     <div className="flex flex-col my-3">
       <Select
         options={[
@@ -37,7 +37,7 @@ const BarchartFilters: React.FC<FilterProps> = ({
         parentKey={parentKey}
       />
     </div>
-    <div className="absolute right-0 top-0 flex items-center justify-end">
+    <div className="absolute top-0 right-0 flex items-center justify-end">
       <button type="button" className="flex text-purple-300" onClick={() => closeFunction(parentKey)}>
         <i className="material-icons">close</i>
       </button>

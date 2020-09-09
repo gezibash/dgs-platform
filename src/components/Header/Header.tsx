@@ -22,15 +22,15 @@ const Header : React.FC = () => {
   const [links] = React.useState(buttons);
 
   return (
-    <div className="flex items-center justify-between flex-wrap p-4 border-indigo-300 shadow-sm ds-header">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
+    <div className="flex flex-wrap items-center justify-between p-4 border-indigo-300 shadow-sm ds-header">
+      <div className="flex items-center flex-shrink-0 mr-6 text-white">
         <h2 className="ds-platform-name">
           Dig Stories
           {' '}
           <strong>Platform</strong>
         </h2>
       </div>
-      <nav className="hidden sm:flex flex-grow items-center text-white ds-nav">
+      <nav className="items-center flex-grow hidden text-white sm:flex ds-nav">
         {links.map((link) => (
           <button
             type="button"

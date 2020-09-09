@@ -29,8 +29,8 @@ const ChartElement: React.FC = () => {
 
   return (
     <div className={`p-1 ${editMode || filterMode ? 'being-edited' : ''}`}>
-      <div className="flex flex-col w-full shadow-md border border-purple-300 bg-white py-5">
-        <div className="flex content-end justify-end flex-grow items-center flex-row mx-5 my-2">
+      <div className="flex flex-col w-full py-5 bg-white border border-purple-300 shadow-md">
+        <div className="flex-row items-center content-end justify-end flex-grow hidden mx-5 my-2 sm:flex">
           <button
             onClick={() => setFilterMode(!filterMode)}
             type="button"

@@ -47,8 +47,8 @@ const BarchartFilters: React.FC = () => {
             />
           ))
         }
-        <div className="flex relative flex-row items-center border border-gray-200 mr-2 p-5 my-5">
-          <button type="button" className="flex w-1/2 items-center text-purple-200" onClick={() => createNewFilter()}>
+        <div className="relative flex flex-row items-center p-5 my-5 mr-2 border border-gray-200">
+          <button type="button" className="flex items-center w-1/2 text-purple-200" onClick={() => createNewFilter()}>
             <i className="material-icons">add</i>
           </button>
         </div>
